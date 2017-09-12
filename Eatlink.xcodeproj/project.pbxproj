@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49274C871EA3F9BE00F1367E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49274C861EA3F9BE00F1367E /* AppDelegate.swift */; };
+		49274C891EA3F9BE00F1367E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49274C881EA3F9BE00F1367E /* ViewController.swift */; };
+		49274C8C1EA3F9BE00F1367E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49274C8A1EA3F9BE00F1367E /* Main.storyboard */; };
+		49274C8E1EA3F9BE00F1367E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49274C8D1EA3F9BE00F1367E /* Assets.xcassets */; };
+		49274C911EA3F9BE00F1367E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49274C8F1EA3F9BE00F1367E /* LaunchScreen.storyboard */; };
+		49F3A2B11EB2B064003EDE30 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F3A2B01EB2B064003EDE30 /* RestaurantModel.swift */; };
+		49F3A2B31EB2B2D6003EDE30 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F3A2B21EB2B2D6003EDE30 /* HomeModel.swift */; };
+		BEFC4C6F1EC7980A00CB15BB /* TopRestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFC4C6E1EC7980A00CB15BB /* TopRestaurantsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49274C831EA3F9BE00F1367E /* Eatlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eatlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49274C861EA3F9BE00F1367E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49274C881EA3F9BE00F1367E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49274C8B1EA3F9BE00F1367E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49274C8D1EA3F9BE00F1367E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49274C901EA3F9BE00F1367E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49274C921EA3F9BE00F1367E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F3A2B01EB2B064003EDE30 /* RestaurantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		49F3A2B21EB2B2D6003EDE30 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		BEFC4C6E1EC7980A00CB15BB /* TopRestaurantsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRestaurantsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49274C801EA3F9BE00F1367E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49274C7A1EA3F9BE00F1367E = {
+			isa = PBXGroup;
+			children = (
+				49274C851EA3F9BE00F1367E /* Eatlink */,
+				49274C841EA3F9BE00F1367E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49274C841EA3F9BE00F1367E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49274C831EA3F9BE00F1367E /* Eatlink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49274C851EA3F9BE00F1367E /* Eatlink */ = {
+			isa = PBXGroup;
+			children = (
+				49274C861EA3F9BE00F1367E /* AppDelegate.swift */,
+				49274C881EA3F9BE00F1367E /* ViewController.swift */,
+				BEFC4C6E1EC7980A00CB15BB /* TopRestaurantsTableViewCell.swift */,
+				49274C8A1EA3F9BE00F1367E /* Main.storyboard */,
+				49F3A2B01EB2B064003EDE30 /* RestaurantModel.swift */,
+				49F3A2B21EB2B2D6003EDE30 /* HomeModel.swift */,
+				49274C8D1EA3F9BE00F1367E /* Assets.xcassets */,
+				49274C8F1EA3F9BE00F1367E /* LaunchScreen.storyboard */,
+				49274C921EA3F9BE00F1367E /* Info.plist */,
+			);
+			path = Eatlink;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49274C821EA3F9BE00F1367E /* Eatlink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49274C951EA3F9BE00F1367E /* Build configuration list for PBXNativeTarget "Eatlink" */;
+			buildPhases = (
+				49274C7F1EA3F9BE00F1367E /* Sources */,
+				49274C801EA3F9BE00F1367E /* Frameworks */,
+				49274C811EA3F9BE00F1367E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eatlink;
+			productName = Eatlink;
+			productReference = 49274C831EA3F9BE00F1367E /* Eatlink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49274C7B1EA3F9BE00F1367E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sandland Apps";
+				TargetAttributes = {
+					49274C821EA3F9BE00F1367E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 26RSS88A8M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49274C7E1EA3F9BE00F1367E /* Build configuration list for PBXProject "Eatlink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49274C7A1EA3F9BE00F1367E;
+			productRefGroup = 49274C841EA3F9BE00F1367E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49274C821EA3F9BE00F1367E /* Eatlink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49274C811EA3F9BE00F1367E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49274C911EA3F9BE00F1367E /* LaunchScreen.storyboard in Resources */,
+				49274C8E1EA3F9BE00F1367E /* Assets.xcassets in Resources */,
+				49274C8C1EA3F9BE00F1367E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49274C7F1EA3F9BE00F1367E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F3A2B31EB2B2D6003EDE30 /* HomeModel.swift in Sources */,
+				49274C891EA3F9BE00F1367E /* ViewController.swift in Sources */,
+				BEFC4C6F1EC7980A00CB15BB /* TopRestaurantsTableViewCell.swift in Sources */,
+				49F3A2B11EB2B064003EDE30 /* RestaurantModel.swift in Sources */,
+				49274C871EA3F9BE00F1367E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49274C8A1EA3F9BE00F1367E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49274C8B1EA3F9BE00F1367E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49274C8F1EA3F9BE00F1367E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49274C901EA3F9BE00F1367E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49274C931EA3F9BE00F1367E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49274C941EA3F9BE00F1367E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49274C961EA3F9BE00F1367E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 26RSS88A8M;
+				INFOPLIST_FILE = Eatlink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandlandApps.Eatlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49274C971EA3F9BE00F1367E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 26RSS88A8M;
+				INFOPLIST_FILE = Eatlink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandlandApps.Eatlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49274C7E1EA3F9BE00F1367E /* Build configuration list for PBXProject "Eatlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49274C931EA3F9BE00F1367E /* Debug */,
+				49274C941EA3F9BE00F1367E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49274C951EA3F9BE00F1367E /* Build configuration list for PBXNativeTarget "Eatlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49274C961EA3F9BE00F1367E /* Debug */,
+				49274C971EA3F9BE00F1367E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49274C7B1EA3F9BE00F1367E /* Project object */;
+}
