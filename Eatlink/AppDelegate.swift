@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Eatlink
 //
-//  Created by Andrew Woodward on 4/16/17.
+//  Created by Weston Sandland on 4/16/17.
 //  Copyright © 2017 Sandland Apps. All rights reserved.
 //
 
